@@ -1,0 +1,32 @@
+{
+  "name": "javascript-koans",
+  "version": "1.0.0",
+  "description": "Based on Edgecase's fantastic  [Ruby koans](http://github.com/edgecase/ruby_koans), the goal of the Javascript koans is to teach you Javascript programming through testing.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha -w ./koans"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noogn/javascript-koans.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noogn/javascript-koans/issues"
+  },
+  "homepage": "https://github.com/noogn/javascript-koans#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-jasmine": "^1.0.7",
+    "jasmine": "^3.3.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}
